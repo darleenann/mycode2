@@ -1,0 +1,4 @@
+[planet-express]
+fry ansible_host=10.10.2.4 ansible_user=fry ansible_become_pass=alta3
+zoidberg ansible_host=10.10.2.5 ansible_user=zoidberg anisble_become_pass=alta3
+bender ansible_host=10.10.2.3 ansible_user=bender ansible_become_pass=alta3

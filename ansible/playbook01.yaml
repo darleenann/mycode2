@@ -1,0 +1,8 @@
+---
+- name: copying files
+  hosts: planet-express
+
+  tasks: 
+  - copy:
+      src: /home/student/mycode2/ansible/file1.txt
+      dest: /tmp/ 
